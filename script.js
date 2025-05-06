@@ -17,6 +17,7 @@ function showTime(){
     document.getElementById("seconds").textContent=sec;
     document.getElementById("week").textContent=weekDayConverter;
     document.getElementById("month").textContent=monthsConverter;
+    document.getElementById("day").textContent=myTime.getDate();
 }
 setInterval(showTime,1000);
 showTime();
