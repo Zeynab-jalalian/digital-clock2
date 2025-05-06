@@ -18,6 +18,7 @@ function showTime(){
     document.getElementById("week").textContent=weekDayConverter;
     document.getElementById("month").textContent=monthsConverter;
     document.getElementById("day").textContent=myTime.getDate();
+    document.getElementById("year").textContent=myTime.getFullYear();
 }
 setInterval(showTime,1000);
 showTime();
