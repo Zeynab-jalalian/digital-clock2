@@ -47,3 +47,16 @@
   .date span {
     margin: 0 5px;
   }
+  @media screen and (max-width:400px){
+   .container{
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    gap: 15px;
+   }
+   .time , .week , .date{
+    font-size: 1.5rem;
+    padding: 10px  15px;
+    border-radius: 12px;
+   }
+  }
